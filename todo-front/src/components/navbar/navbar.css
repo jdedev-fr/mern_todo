@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+header>nav>* {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+header>nav>*:hover {
+    text-decoration: underline;
+}
